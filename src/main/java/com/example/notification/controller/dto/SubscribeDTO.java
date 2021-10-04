@@ -1,4 +1,4 @@
-package com.pangaea.notification.controller.dto;
+package com.example.notification.controller.dto;
 
 public class SubscribeDTO {
 

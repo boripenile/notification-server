@@ -1,4 +1,4 @@
-package com.pangaea.notification;
+package com.example.notification;
 
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
@@ -18,9 +18,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.pangaea.notification.controller.NotificationController;
-import com.pangaea.notification.events.ConsumerEventManager;
-import com.pangaea.notification.events.ProducerEventManager;
+import com.example.notification.controller.NotificationController;
+import com.example.notification.events.ConsumerEventManager;
+import com.example.notification.events.ProducerEventManager;
 
 
 @WebMvcTest({ NotificationController.class })

@@ -1,4 +1,4 @@
-package com.pangaea.notification.events;
+package com.example.notification.events;
 
 import java.nio.charset.StandardCharsets;
 

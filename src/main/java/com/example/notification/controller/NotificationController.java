@@ -1,4 +1,4 @@
-package com.pangaea.notification.controller;
+package com.example.notification.controller;
 
 import java.util.UUID;
 
@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.pangaea.notification.controller.dto.SubscribeDTO;
-import com.pangaea.notification.events.ConsumerEventManager;
-import com.pangaea.notification.events.ProducerEventManager;
+
+import com.example.notification.controller.dto.SubscribeDTO;
+import com.example.notification.events.ConsumerEventManager;
+import com.example.notification.events.ProducerEventManager;
 
 @RestController
 public class NotificationController {

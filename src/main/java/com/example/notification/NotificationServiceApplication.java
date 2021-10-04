@@ -1,4 +1,4 @@
-package com.pangaea.notification;
+package com.example.notification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
